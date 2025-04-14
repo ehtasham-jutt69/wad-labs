@@ -31,7 +31,6 @@ ul li a,ul li{
   min-height: 100vh;
 }
 
-/* ========== NAVBAR 1 ========== */
 .navbar1 {
   background-color: #2a3d66;
   display: flex;
@@ -64,7 +63,7 @@ ul li a,ul li{
   border-radius: 4px;
 }
 
-/* ========== NAVBAR 2 (Main Heading) ========== */
+
 .navbar2 {
   background-color: white;
   display: flex;
@@ -76,7 +75,7 @@ ul li a,ul li{
   color: #2a3d66;
 }
 
-/* ========== MAIN CONTENT GRID ========== */
+
 .main-content {
   display: grid;
   grid-template-columns: 1fr 2fr 1fr;
@@ -84,7 +83,7 @@ ul li a,ul li{
   padding: 20px;
 }
 
-/* ========== SIDEBAR ========== */
+
 .sidebar {
   background-color: #fff;
   padding: 20px;
@@ -94,7 +93,7 @@ ul li a,ul li{
 
 }
 
-/* ========== PARAGRAPH SECTION ========== */
+
 .paragraph {
   padding: 20px;
   background-color: #adb5ce;;
@@ -103,7 +102,7 @@ ul li a,ul li{
   height: 550px;
 }
 
-/* Make paragraph responsive */
+
 .paragraph p {
   width: 100%;
   max-width: 100%;
@@ -111,7 +110,7 @@ ul li a,ul li{
   color: #555;
 }
 
-/* ========== PROFILE CARD ========== */
+
 .profile-section {
   background-color: white;
   padding: 20px;
@@ -149,7 +148,7 @@ ul li a,ul li{
 
 }
 
-/* ========== FOOTER ========== */
+
 .footer {
   background-color: #282d41;
   color: white;
@@ -159,7 +158,7 @@ ul li a,ul li{
   font-size: 16px;
 }
 
-/* ========== MEDIA QUERIES ========== */
+
 @media (max-width: 1024px) {
   .main-content {
     grid-template-columns: 1fr 2fr 1fr;
