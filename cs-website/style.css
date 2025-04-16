@@ -1,0 +1,31 @@
+*{
+    
+    font-family: 'Times New Roman', Times, serif;
+}
+.navigation ul
+{
+    display: flex;
+    background-color: #3f5bbe;
+list-style: none;
+
+  
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+.navigation li{
+    margin:20px;
+    color: rgb(255, 255, 255);
+}
+a{
+    color: aliceblue;
+    font-size: medium;
+ text-decoration: none;
+}
+a :hover{
+    color: black;
+}
+img{
+    im
+    image-resolution: 104px 563px;
+}
