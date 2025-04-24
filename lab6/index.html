@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MLSA QAU Profile Page</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-[#2a3d66] font-sans text-gray-800 min-h-screen">
+    <div class="grid grid-rows-[60px_80px_1fr_60px] min-h-screen">
+
+      <nav class="bg-[#2a3d66] flex items-center justify-center sticky top-0">
+        <ul class="flex gap-6 text-white text-sm md:text-base">
+          <li><a href="#about-me" class="hover:bg-white hover:text-[#2a3d66] rounded px-3 py-1">ABOUT ME</a></li>
+          <li><a href="#likes" class="hover:bg-white hover:text-[#2a3d66] rounded px-3 py-1">LIKES</a></li>
+          <li><a href="#dislikes" class="hover:bg-white hover:text-[#2a3d66] rounded px-3 py-1">DISLIKES</a></li>
+        </ul>
+      </nav>
+
+      <div class="bg-white flex items-center justify-center gap-12 text-2xl font-bold text-[#2a3d66] px-4">
+        <img src="img.png" alt="logo" class="w-12 h-12" />
+        <h1>MLSA QAU</h1>
+      </div>
+
+      <div class="grid grid-cols-1 lg:grid-cols-3 gap-6 p-6">
+
+        <aside class="bg-[#adb5ce] p-6 rounded-xl">
+          <ul class="flex flex-col items-center gap-10 mt-10">
+            <h2 class="text-xl font-semibold">Content</h2>
+            <li><a href="#home">Home Page</a></li>
+            <li><a href="#profile">Profile</a></li>
+            <li><a href="#mlsa">MLSA</a></li>
+            <li><a href="#end">The End</a></li>
+          </ul>
+        </aside>
+
+        <section class="bg-[#adb5ce] p-6 rounded-xl overflow-y-auto max-h-[550px]">
+          <h2 id="about-me" class="text-2xl font-bold mb-4">About Me</h2>
+          <p class="mb-4">My name is Ehtasham and I am a student of CS (6<sup>th</sup> semester). I am currently learning Web Application Development.</p>
+          <p class="mb-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni dolores obcaecati minus officiis totam deserunt atque veritatis amet.</p>
+          <h2 id="dislikes" class="text-2xl font-bold mb-4">Things I Don't Like</h2>
+          <p class="mb-6">Lorem ipsum dolor sit, amet consectetur adipisicing elit... (trimmed)</p>
+          <h2 id="likes" class="text-2xl font-bold mb-4">Things I Like</h2>
+          <p class="mb-6">Lorem, ipsum dolor sit amet consectetur adipisicing elit... (trimmed)</p>
+          <p>I want to create websites like <a href="https://linkedin.com" class="text-blue-600 underline">LinkedIn</a> and <a href="https://foodpanda.com" class="text-blue-600 underline">Foodpanda</a>.</p>
+        </section>
+
+        <section class="bg-[#adb5ce] p-6 rounded-xl">
+          <div class="bg-white p-6 rounded-lg shadow-lg text-center h-full flex flex-col justify-center items-center">
+            <img src="image.jfif" alt="Profile Photo" class="w-24 h-24 rounded-full border-4 border-[#2a3d66] mb-4 hover:scale-125 transition-transform duration-500" />
+            <h2 class="text-xl font-semibold">Muhammad Ehtasham</h2>
+            <p class="mb-2">A student of CS at QAU</p>
+            <h3 class="font-semibold">Skills</h3>
+            <ul class="mb-2">
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+            </ul>
+            <div class="text-blue-600">
+              <a href="#">Facebook</a> | <a href="#">LinkedIn</a>
+            </div>
+            <p class="mt-2">500+ connections</p>
+          </div>
+        </section>
+      </div>
+
+      <footer class="bg-[#282d41] text-white flex items-center justify-center text-sm h-14">
+        <p>&copy; 2025 All Rights Reserved | Muhammad Ehtasham</p>
+      </footer>
+    </div>
+  </body>
+</html>
